@@ -37,6 +37,14 @@ export default {
   modules: [
     '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    hostname: 'https://christianparanas.vercel.app',
+    gzip: true,
+    exclude: [
+      '/secret',
+      '/admin/**'
+    ]
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
