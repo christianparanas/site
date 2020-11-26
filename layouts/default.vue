@@ -7,7 +7,7 @@
 <script>
 export default {
   head: {
-    title: 'Christian Paranas',
+    title: 'Christian R. Paranas',
     htmlAttrs: {
       lang: 'en',
       amp: true
