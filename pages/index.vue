@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div id="App" class="main">
     <div class="hero">
       <Nav />
     </div>
@@ -7,7 +7,16 @@
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'App',
+  data() {
+    
+  },
+  mounted() {
+    $nuxt.$colorMode.preference = 'dark'
+  }
+  
+}
 </script>
 
 <style scoped>
