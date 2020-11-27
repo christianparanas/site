@@ -2,7 +2,7 @@
    <div class="footer">
         <div class="cre">2020 &copy Christian Paranas</div>
         <div class="reach">
-           <div class="cursor-pointer">
+           <a href="mailto:chrisparams@gmail.com" target="_blank" class="cursor-pointer">
                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	            viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                   <rect x="64" y="64" style="fill:#ECEFF1;" width="384" height="384"/>
@@ -10,9 +10,8 @@
                   <path style="fill:#F44336;" d="M464,64h-16L256,215.616L64,64H48C21.504,64,0,85.504,0,112v288c0,26.496,21.504,48,48,48h16V148.672
 	l192,147.68L448,148.64V448h16c26.496,0,48-21.504,48-48V112C512,85.504,490.496,64,464,64z"/>
                </svg>
-
-           </div>
-           <div class="cursor-pointer">
+           </a>
+           <a href="https://twitter.com/chrisparams" target="_blank" class="cursor-pointer">
                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	               viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                   <path style="fill:#03A9F4;" d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
@@ -24,10 +23,10 @@
                   C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
                   C480.224,136.96,497.728,118.496,512,97.248z"/>
                </svg>
-            </div>
-           <div class="cursor-pointer">
+            </a>
+           <a href="https://github.com/christianparanas" target="_blank" class="cursor-pointer">
               <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-           </div>
+           </a>
            <div class="cursor-pointer">
                <svg class="drb" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                   viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
