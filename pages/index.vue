@@ -6,18 +6,7 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'App',
-  data() {
-    
-  },
-  mounted() {
-    $nuxt.$colorMode.preference = 'dark'
-  }
-  
-}
-</script>
+
 
 <style scoped>
   .main {
