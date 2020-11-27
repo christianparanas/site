@@ -9,9 +9,18 @@
         <div class="pr">Projects</div>
         <div class="cv">Curriculum Vitae</div>
       </div>
+      <div class="footer">
+        <div class="cre">2020 &copy Christian Paranas</div>
+      </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+
+}
+</script>
 
 
 
@@ -21,17 +30,10 @@
     font-family: 'Fredoka One', cursive;
   }
 
-  .hero {
-    padding: 150px 20px 25px;
-  }
+  .hero { padding: 180px 20px 25px; }
 
-  h2 {
-    font-size: 15px;
-  }
-
-  h1 {
-    font-size: 35px;
-  }
+  h2 { font-size: 15px; }
+  h1 { font-size: 35px; }
 
   .options {
     display: grid;
@@ -53,6 +55,15 @@
   .cv {
     background-color: var(--hero2bg);
     color: var(--hero2color);
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+  }
+
+  .cre {
+    font-size: 15px;
   }
 
 </style>
