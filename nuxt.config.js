@@ -11,12 +11,17 @@ export default {
       { hid: 'description', name: 'description', content: "I'm a Student and a Freelance Web Developer currently in Tacloban City, Philippines." }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap'
+      }
     ]
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
+    '@/assets/main.css'
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -29,6 +34,7 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
+    "@nuxtjs/color-mode",
     '@nuxtjs/tailwindcss',
     '@nuxtjs/svg'
   ],
