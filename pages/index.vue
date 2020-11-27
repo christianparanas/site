@@ -5,6 +5,10 @@
       <h2>Hi! I'm</h2>
       <h1>Christian R. Paranas</h1>
       <p>I'm a Student and a Freelance Web Developer currently in Tacloban City, Philippines.</p>
+      <div class="options">
+        <div class="pr">Projects</div>
+        <div class="cv">Curriculum Vitae</div>
+      </div>
     </div>
   </div>
 </template>
@@ -27,6 +31,28 @@
 
   h1 {
     font-size: 35px;
+  }
+
+  .options {
+    display: grid;
+    grid-row-gap: 12px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .pr, .cv {
+    padding: 15px;
+    border-radius: 6px;
+  }
+
+  .pr {
+    background-color: var(--hero1bg);
+    color: var(--hero1color);
+  }
+
+  .cv {
+    background-color: var(--hero2bg);
+    color: var(--hero2color);
   }
 
 </style>
