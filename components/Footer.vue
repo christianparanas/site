@@ -1,6 +1,5 @@
 <template>
    <div class="footer">
-        <div class="cre">2020 &copy Christian Paranas</div>
         <div class="reach">
            <a href="mailto:chrisparams@gmail.com" target="_blank" class="cursor-pointer">
                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -82,9 +81,9 @@
 
 <style scoped>
    .footer {
-    position: fixed;
-    bottom: 0;
-    padding: 10px 0;
+    padding: 20px 0;
+    display: grid;
+    place-items: center;
   }
 
   .drb {
@@ -99,7 +98,7 @@
   .reach {
      display: grid;
      grid-template-columns: repeat(5, 20px);
-     grid-column-gap: 10px;
+     grid-column-gap: 15px;
   }
 
   
