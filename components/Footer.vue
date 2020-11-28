@@ -1,9 +1,9 @@
 <template>
    <div class="footer">
         <div class="reach">
-           <a href="mailto:chrisparams@gmail.com" target="_blank" class="cursor-pointer">
+           <a href="mailto:christiannparanas@gmail.com" target="_blank" class="cursor-pointer">
                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	            viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+	            viewBox="0 0 512 512" xml:space="preserve">
                   <rect x="64" y="64" style="fill:#ECEFF1;" width="384" height="384"/>
                   <polygon style="fill:#CFD8DC;" points="256,296.384 448,448 448,148.672 "/>
                   <path style="fill:#F44336;" d="M464,64h-16L256,215.616L64,64H48C21.504,64,0,85.504,0,112v288c0,26.496,21.504,48,48,48h16V148.672
@@ -12,7 +12,7 @@
            </a>
            <a href="https://twitter.com/chrisparams" target="_blank" class="cursor-pointer">
                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	               viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+	               viewBox="0 0 512 512" xml:space="preserve">
                   <path style="fill:#03A9F4;" d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
                   c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
                   c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
@@ -28,7 +28,7 @@
            </a>
            <div class="cursor-pointer">
                <svg class="drb" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                  viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                  viewBox="0 0 512 512" xml:space="preserve">
                <g>
                   <g>
                      <path class="st0" d="M278.7872,6.7052C123.0414-7.1753-6.8854,122.7529,6.9951,278.4988
@@ -61,10 +61,6 @@
            </div>
            <div class="cursor-pointer">
                <svg class="" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                  <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
-                  <title>Linkedin</title>
-                  <desc>Created with Sketch.</desc>
-                  <defs></defs>
                   <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                      <g id="Social-Icons---Rounded" transform="translate(-376.000000, -267.000000)">
                            <g id="Linkedin" transform="translate(376.000000, 267.000000)">
@@ -76,7 +72,7 @@
                </svg>
            </div>
         </div>
-          &nbspHandcrafted by me 
+          &nbsp Handcrafted by me 
    </div>
 </template>
 
