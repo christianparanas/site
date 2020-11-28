@@ -12,12 +12,30 @@
 
 <script>
 export default {
+   head: {
+    title: 'Projects',
+    titleTemplate: "Christian R. Paranas | %s",
+    htmlAttrs: {
+      lang: 'en',
+      amp: true
+    },
+    meta: [
+      { hid: 'keywords', name: 'keywords', content: 'Christian Paranas, Christian, Rosaroso, Paranas, Projects, Code, Programming'},
+      { hid: 'description', name: 'description', content: "I'm a Student and a Freelance Web Developer currently in Tacloban City, Philippines." }
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ]
+  },
+
    name: 'project',
    data() {
       return {
          pros: ['project1', 'project2', 'project3', 'project4']
       }
    }
+
+   
 }
 </script>
 
