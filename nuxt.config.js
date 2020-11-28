@@ -44,7 +44,7 @@ export default {
     '@nuxtjs/sitemap'
   ],
   sitemap: {
-    hostname: 'https://christianparanas.vercel.app',
+    hostname: 'https://christianparanas.me',
     gzip: true,
     exclude: [
       '/secret',
