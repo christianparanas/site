@@ -66,20 +66,21 @@ export default {
       top: -5px;
       left: -3px;
       background-color: var(--menubg);
-      display: grid;
-      place-items: center;
-      font-size: 25px;
       letter-spacing: 2px;
+
+      padding: 75px 20px;
    }
 
-   .options {
-      display: grid;
-      grid-row-gap: 5px;
-      text-align: center;
-   }
+   
 
    .options > div {
-      padding: 5px;
+      padding: 10px;
+      border-radius: 5px;
+      padding-left: 12px;
+   }
+
+   .options > div:hover {
+      background-color: var(--hoverMenuOverlayBg);
    }
    
 </style>
