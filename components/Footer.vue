@@ -80,8 +80,9 @@
    </div>
 </template>
 
-<style scoped>
+<style>
    .footer {
+    z-index: -1;
     position: fixed;
     bottom: 0;
     padding: 10px 0;
