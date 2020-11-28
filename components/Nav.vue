@@ -77,6 +77,7 @@ export default {
       padding: 10px;
       border-radius: 5px;
       padding-left: 12px;
+      -webkit-tap-highlight-color: transparent;
    }
 
    .options > div:hover {
