@@ -76,14 +76,22 @@
                </svg>
            </div>
         </div>
+          &nbspHandcrafted by me 
    </div>
 </template>
 
 <style scoped>
    .footer {
-    padding: 20px 0;
-    display: grid;
-    place-items: center;
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0;
+    left: 50%;
+    width: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
   }
 
   .drb {
@@ -99,6 +107,7 @@
      display: grid;
      grid-template-columns: repeat(5, 20px);
      grid-column-gap: 15px;
+     margin-bottom: 15px;
   }
 
   
