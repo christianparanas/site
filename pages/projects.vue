@@ -33,17 +33,17 @@ export default {
       return {
          projs: [
                   {
-                     title: "pro1",
+                     title: "Pomodoro",
                      discrip: "ako ay isang tagahanga mo ako na magdadala ng mga hawak mo",
                      tools: ['react', 'github api']
                   },
                   {
-                     title: "pro2",
+                     title: "Segregator",
                      discrip: "ako ay isang tagahanga mo ako na magdadala ng mga hawak mo",
                      tools: ['vue', 'firebase']
                   },
                   {
-                     title: "pro3",
+                     title: "Covid tracker",
                      discrip: "ako ay isang tagahanga mo ako na magdadala ng mga hawak mo",
                      tools: ['electron', 'node']
                   },
