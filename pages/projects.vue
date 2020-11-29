@@ -3,8 +3,8 @@
       <Nav />
       <div class="wrapper">
          <!-- passing the prop to procard compo -->
-         <div class="card" v-for="pro in pros" :key="pro">
-            <Procard v-bind:name="pro" />
+         <div class="card" v-for="proj in projs" :key="proj.title">
+            <Procard v-bind:content="proj" />
          </div>   
       </div>
    </div>
@@ -31,7 +31,16 @@ export default {
    name: 'project',
    data() {
       return {
-         pros: ['project1', 'project2', 'project3', 'project4']
+         projs: [
+                  {
+                     title: "pro1",
+                     discrip: "ako ay isang tagahanga mo ako na magdadala ng mga hawak mo"
+                  },
+                  {
+                     title: "pro2",
+                     discrip: "ako ay isang tagahanga mo ako na magdadala ng mga hawak mo"
+                  },
+                ]
       }
    }
 
@@ -46,11 +55,12 @@ export default {
 
    .wrapper {
       padding: 100px 20px;
+      display: grid;
+      grid-row-gap: 12px;
    }
 
    .card {
-      margin-bottom: 10px;
-      border: 1px solid pink;
-      padding: 5px;
+      background-color: var(--menubg);
+      padding: 10px;
    }
 </style>

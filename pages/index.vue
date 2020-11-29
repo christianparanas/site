@@ -2,7 +2,7 @@
   <div id="App" class="main">
     <Nav />
     <div class="hero">
-      <h2>Hi! I'm</h2>
+      <h2>Hi I'm</h2>
       <h1>Christian R. Paranas</h1>
       <p>I'm a Student and a Freelance Web Developer currently in Tacloban City, Philippines.</p>
       <div class="options">
