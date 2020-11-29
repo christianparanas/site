@@ -14,14 +14,14 @@
 export default {
    head: {
     title: 'Projects',
-    titleTemplate: "Christian R. Paranas | %s",
+    titleTemplate: "Christian Paranas | %s",
     htmlAttrs: {
       lang: 'en',
       amp: true
     },
     meta: [
       { hid: 'keywords', name: 'keywords', content: 'Christian Paranas, Christian, Rosaroso, Paranas, Projects, Code, Programming'},
-      { hid: 'description', name: 'description', content: "I'm a Student and a Freelance Web Developer currently in Tacloban City, Philippines." }
+      { hid: 'description', name: 'description', content: "I'm Christian R. Paranas, I'm a software developer currently in Tacloban City, Philippines. Specializing in building websites and applications. My current toolset includes Vue, React, Redux, Node, Laravel and other various frameworks, libraries and technologies related to them." },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

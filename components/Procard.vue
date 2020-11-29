@@ -7,7 +7,7 @@
 
 <script>
 export default {
-   // accepting the passed prop and putting it to the html
+   // accepting the passed prop and putting it to the template
   name: 'Procard',
   props: ['name'],
 
