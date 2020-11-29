@@ -1,1 +1,1 @@
-Personal Portfolio made with Nuxtjs.
+portfolio made with Nuxtjs.
