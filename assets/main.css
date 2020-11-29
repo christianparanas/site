@@ -11,7 +11,8 @@
    --hero2bg: #1a202e;
    --menubg: #fff;
    --hoverMenuOverlayBg: #ECFDF5;
-   --tooltext: #E9D5FF;
+   --tooltext: #f4f0f8;
+   --bgtools: #8B5CF6;
    
  }
  
@@ -29,6 +30,7 @@
    --menubg: #1f2937;
    --hoverMenuOverlayBg: #091a28;
    --tooltext: #E9D5FF;
+   --bgtools: #6B21A8;
  }
  
  body {

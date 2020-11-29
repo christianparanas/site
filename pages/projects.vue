@@ -33,19 +33,42 @@ export default {
       return {
          projs: [
                   {
-                     title: "Pomodoro",
-                     discrip: "ako ay isang tagahanga mo ako na magdadala ng mga hawak mo",
-                     tools: ['react', 'github api']
+                     title: "Chatroom",
+                     discrip: "Simple chatroom made with next and firebase",
+                     tools: ['react', 'next', 'axios', 'firebase'],
+                     git: 'https://github.com/christianparanas/chatroom',
+                     site: 'https://chatroom-ten.vercel.app',
+                     isLive: true
+                  },
+                  {
+                     title: "Recipe",
+                     discrip: "A recipe app where you can find your favorite recipe and its ingredients.",
+                     tools: ['next', 'react', 'edamam-api', 'axios'],
+                     git: 'https://github.com/christianparanas/recipe',
+                     site: 'https://recipe-brown.vercel.app/',
+                     isLive: true
+                  },
+                  {
+                     title: "Crypto price tracker",
+                     discrip: "Live price and trading for top cryptocurrencies like Bitcoin (BTC) and Ethereum (ETH) and more.",
+                     tools: ['react', 'axios', 'coingecko-api'],
+                     git: 'https://github.com/christianparanas/crypto-price-tracker',
+                     isLive: false
+                  },
+                  {
+                     title: "Coronavirus tracker",
+                     discrip: "A web application for tracking coronavirus outbreak in the the world",
+                     tools: ['vanillajs', 'fatch', 'covid-api'],
+                     git: 'https://github.com/christianparanas/coronavirus-tracker',
+                     site: 'https://covidv2.netlify.app',
+                     isLive: true
                   },
                   {
                      title: "Segregator",
-                     discrip: "ako ay isang tagahanga mo ako na magdadala ng mga hawak mo",
-                     tools: ['vue', 'firebase']
-                  },
-                  {
-                     title: "Covid tracker",
-                     discrip: "ako ay isang tagahanga mo ako na magdadala ng mga hawak mo",
-                     tools: ['electron', 'node']
+                     discrip: "A desktop application that will help you to segregate your scattered files in just one click.",
+                     tools: ['electron', 'node'],
+                     git: 'https://github.com/christianparanas/segregator',
+                     isLive: false
                   },
                 ]
       }
@@ -68,7 +91,7 @@ export default {
 
    .card {
       background-color: var(--menubg);
-      padding: 10px;
-      border-radius: 4px;
+      padding: 15px;
+      border-radius: 8px;
    }
 </style>
