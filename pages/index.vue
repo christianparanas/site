@@ -49,7 +49,7 @@ export default {
 
   .pr, .cv {
     padding: 12px;
-    border-radius: 10px;
+    border-radius: 7px;
     display: flex;
     justify-content: center;
     -webkit-box-shadow: 0px 1px 5px 1px rgba(9,26,40,0.49);

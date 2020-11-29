@@ -79,7 +79,7 @@ export default {
    .pat {
       width: 100%;
       padding: 10px;
-      border-radius: 3px;
+      border-radius: 7px;
       padding-left: 12px;
       -webkit-tap-highlight-color: transparent;
    }
