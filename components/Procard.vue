@@ -41,6 +41,7 @@ export default {
       padding: 2px 4px;
       border-radius: 3px;
       background-color: #6B21A8;
+      color: var(--tooltext);
    }
 </style>
 

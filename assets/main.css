@@ -2,15 +2,16 @@
    --color: #243746;
    --color-primary: #158876;
    --color-secondary: #0e2233;
-   --bg: #f3f5f4;
+   --bg: #fffaf5;
    --bg-secondary: #fff;
    --border-color: #ddd;
    --hero1bg: #7000df;
    --hero1color: #fff;
    --hero2color: #fff;
    --hero2bg: #1a202e;
-   --menubg: #ECFDF5;
-   --hoverMenuOverlayBg: #A7F3D0;
+   --menubg: #fff;
+   --hoverMenuOverlayBg: #ECFDF5;
+   --tooltext: #E9D5FF;
    
  }
  
@@ -27,6 +28,7 @@
    --hero2bg: #1f2937;
    --menubg: #1f2937;
    --hoverMenuOverlayBg: #091a28;
+   --tooltext: #E9D5FF;
  }
  
  body {
