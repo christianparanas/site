@@ -3,7 +3,7 @@
       <Nav />
       <div class="wrapper">
          <!-- passing the prop to procard compo -->
-         <div class="card" v-for="proj in projs" :key="proj.title">
+         <div class="card shadow" v-for="proj in projs" :key="proj.title">
             <Procard v-bind:content="proj" />
          </div>   
       </div>
@@ -34,11 +34,18 @@ export default {
          projs: [
                   {
                      title: "pro1",
-                     discrip: "ako ay isang tagahanga mo ako na magdadala ng mga hawak mo"
+                     discrip: "ako ay isang tagahanga mo ako na magdadala ng mga hawak mo",
+                     tools: ['react', 'github api']
                   },
                   {
                      title: "pro2",
-                     discrip: "ako ay isang tagahanga mo ako na magdadala ng mga hawak mo"
+                     discrip: "ako ay isang tagahanga mo ako na magdadala ng mga hawak mo",
+                     tools: ['vue', 'firebase']
+                  },
+                  {
+                     title: "pro3",
+                     discrip: "ako ay isang tagahanga mo ako na magdadala ng mga hawak mo",
+                     tools: ['electron', 'node']
                   },
                 ]
       }
@@ -62,5 +69,6 @@ export default {
    .card {
       background-color: var(--menubg);
       padding: 10px;
+      border-radius: 4px;
    }
 </style>
