@@ -1,6 +1,7 @@
 <template>
    <div id="project" class="project">
       <Nav />
+      <h1>Projects I made</h1>
       <div class="wrapper">
          <!-- passing the prop to procard compo -->
          <div class="card shadow" v-for="proj in projs" :key="proj.title">
@@ -57,10 +58,18 @@ export default {
                   },
                   {
                      title: "Coronavirus tracker",
-                     discrip: "A web application for tracking coronavirus outbreak in the the world",
-                     tools: ['vanillajs', 'fatch', 'covid-api'],
+                     discrip: "A web application for tracking coronavirus outbreak in the the world.",
+                     tools: ['vanillajs', 'fetch', 'covid-api'],
                      git: 'https://github.com/christianparanas/coronavirus-tracker',
                      site: 'https://covidv2.netlify.app',
+                     isLive: true
+                  },
+                  {
+                     title: "Freedom Thoughts",
+                     discrip: "A web app that lets you share/post your thoughts anonymously.",
+                     tools: ['node', 'mongodb', 'express'],
+                     git: 'https://github.com/christianparanas/Freedom',
+                     site: 'https://freedomthoughts.herokuapp.com/',
                      isLive: true
                   },
                   {
@@ -83,8 +92,13 @@ export default {
       height: fit-content;
    }
 
+   h1 {
+      padding-top: 100px;
+      text-align: center;
+   }
+
    .wrapper {
-      padding: 100px 20px;
+      padding: 20px 20px 30px;
       display: grid;
       grid-row-gap: 12px;
    }

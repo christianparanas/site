@@ -21,10 +21,11 @@
       </div>
 
       <div v-if="toggleModeMenu" class="menu-overlay">
-         <div class="options">
-            <div class="cursor-pointer">About</div>
-            <div class="cursor-pointer">Projects</div>
-            <div class="cursor-pointer">Blogs</div>
+         <div class="options" @click="toggleModeMenu = !toggleModeMenu">
+            <NuxtLink  to="/" class="pat cursor-pointer">Home</NuxtLink>
+            <NuxtLink to="/" class="pat cursor-pointer">About</NuxtLink>
+            <NuxtLink to="/projects" class="pat cursor-pointer">Projects</NuxtLink>
+            <NuxtLink to="/projects" class="pat cursor-pointer">Blogs</NuxtLink>
          </div>
       </div>
    </div>
@@ -46,7 +47,6 @@ export default {
    .nav {
       width: 100%;
       position: fixed;
-      
    }
 
    .name {
@@ -58,6 +58,7 @@ export default {
    }
 
    .menu-overlay {
+      opacity: .9;
       z-index: 1;
       width: calc(100vw + 10px);
       height: calc(100vh + 10px);
@@ -71,16 +72,19 @@ export default {
       padding: 75px 20px;
    }
 
-   
+   .options {
+      display: grid;
+   }
 
-   .options > div {
+   .pat {
+      width: 100%;
       padding: 10px;
       border-radius: 5px;
       padding-left: 12px;
       -webkit-tap-highlight-color: transparent;
    }
 
-   .options > div:hover {
+   .pat:hover {
       background-color: var(--hoverMenuOverlayBg);
    }
    
