@@ -52,6 +52,9 @@ export default {
     border-radius: 6px;
     display: flex;
     justify-content: center;
+    -webkit-box-shadow: 0px 3px 5px 2px rgba(9,26,40,0.49);
+-moz-box-shadow: 0px 3px 5px 2px rgba(9,26,40,0.49);
+box-shadow: 0px 3px 5px 2px rgba(9,26,40,0.49);
   }
 
   .text {
