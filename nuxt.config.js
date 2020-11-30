@@ -52,7 +52,8 @@ export default {
     "@nuxtjs/color-mode",
     '@nuxtjs/tailwindcss',
     '@nuxtjs/svg',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/google-analytics',
+    '@nuxtjs/date-fns'
   ],
 
   googleAnalytics: {
