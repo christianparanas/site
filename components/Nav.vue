@@ -25,7 +25,7 @@
             <NuxtLink  to="/" class="pat cursor-pointer">Home</NuxtLink>
             <NuxtLink to="/" class="pat cursor-pointer">About</NuxtLink>
             <NuxtLink to="/projects" class="pat cursor-pointer">Projects</NuxtLink>
-            <NuxtLink to="/projects" class="pat cursor-pointer">Blogs</NuxtLink>
+            <NuxtLink to="/blogs" class="pat cursor-pointer">Blogs</NuxtLink>
          </div>
       </div>
    </div>
