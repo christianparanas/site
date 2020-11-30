@@ -14,7 +14,6 @@
           <div class="text">Curriculum Vitae</div>
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z"></path></svg>
         </a>
-        <Footer />
       </div>
       <div class="can">
         <div class="shadow dev">
@@ -45,7 +44,7 @@
 		C5.589,33.177,0.789,48.237,6.579,55.917z"/></svg>
           </div>
           <div class="cantitle">UX/UI Design</div>
-          <div class="candis">I can make you simple landing page and complex design for your web applications.</div>
+          <div class="candis">I can make you a simple landing page and complex design for your web applications.</div>
         </div>
         <div class="shadow dev">
           <div class="svg">
@@ -70,10 +69,11 @@
 
           </div>
           <div class="cantitle">Web development</div>
-          <div class="candis">I can build your website from simple features to advance, front-end and back-end development.</div>
+          <div class="candis">I can build your website from simple features to advanced, front-end and back-end development.</div>
         </div>
       </div>
     </div>
+    <Footer />
   </div>
 </template>
 
@@ -92,7 +92,7 @@ export default {
     position: relative;
   }
 
-  .hero { padding: 150px 20px 25px; }
+  .hero { padding: 150px 20px 50px; }
 
   h2 { font-size: 15px; }
   h1 { font-size: 30px; }
@@ -126,6 +126,7 @@ export default {
   .cv {
     background-color: var(--hero2bg);
     color: var(--hero2color);
+    border: 1px solid #1f2937;
   }
 
   .st9 {fill: #091a28}
@@ -144,7 +145,7 @@ export default {
   .dev {
     background-color: var(--menubg);
     display: grid;
-    grid-template-columns: 70px 1fr;
+    grid-template-columns: 60px 1fr;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
