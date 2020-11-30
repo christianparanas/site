@@ -126,7 +126,6 @@ export default {
   .cv {
     background-color: var(--hero2bg);
     color: var(--hero2color);
-    border: 1px solid #1f2937;
   }
 
   .st9 {fill: #091a28}
