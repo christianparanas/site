@@ -4,7 +4,7 @@
      <div class="contents">
         <nuxt-content class="content" :document="article" />
      </div>
-     <NuxtLink to="/blogs" class="backblogs px-4 inline py-2 text-sm font-medium leading-5 shadow text-white transition-colors duration-150 border border-transparent rounded-lg focus:outline-none focus:shadow-outline-blue bg-blue-600 active:bg-blue-600 hover:bg-blue-700">Go back</NuxtLink>
+     <NuxtLink to="/blogs" class="backblogs px-4 inline py-2 text-sm font-medium leading-5 shadow text-white transition-colors duration-150 border border-transparent rounded-lg focus:outline-none">Go back</NuxtLink>
   </article>
 </template>
 
@@ -21,7 +21,8 @@ export default {
 
 <style>
    .backblogs {
-      margin: 25px;
+      margin: 24px;
+      background-color: #6B21A8;
    }
 
    .contents {
@@ -29,7 +30,7 @@ export default {
    }
 
    .content {
-      padding: 60px 13px 20px;
+      padding: 100px 24px 20px;
       z-index: -1;
    }
 
