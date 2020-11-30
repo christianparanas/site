@@ -72,23 +72,14 @@
                </svg>
            </div>
         </div>
-          &nbsp Handcrafted by me 
    </div>
 </template>
 
 <style>
    .footer {
-    z-index: -1;
-    position: fixed;
-    bottom: 0;
-    padding: 10px 0;
-    left: 50%;
-    width: auto;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
+    display: grid;
+    place-items: center;
+    margin-top: 15px;
   }
 
   .drb {
