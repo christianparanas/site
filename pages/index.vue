@@ -142,7 +142,8 @@ export default {
   }
 
   .dev {
-    background-color: var(--menubg);
+    border: 5px solid var(--bordercan);
+    background-color: var(--canbg);
     display: grid;
     grid-template-columns: 60px 1fr;
     padding: 20px;
