@@ -138,7 +138,7 @@ export default {
   .can {
     display: grid;
     grid-row-gap: 10px;
-    margin-top: 40px;
+    margin-top: 60px;
   }
 
   .dev {
