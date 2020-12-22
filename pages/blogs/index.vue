@@ -42,6 +42,10 @@ export default {
 </script>
 
 <style scoped>
+   * {
+    font-family: 'Montserrat', sans-serif;
+  }
+
    .container {
       width: 100%;
    }
