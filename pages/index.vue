@@ -85,7 +85,11 @@ export default {
 
 
 
-<style scoped>
+<style>
+  * {
+    font-family: 'Montserrat', sans-serif;
+  }
+
   .main {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
