@@ -88,7 +88,7 @@ export default {
 <style scoped>
   .main {
     height: 100%;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Montserrat', sans-serif;
     position: relative;
   }
 
