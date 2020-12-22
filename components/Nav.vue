@@ -50,7 +50,7 @@ export default {
    }
 
    .name {
-      font-family: 'Fredoka One', cursive;
+     font-family: 'Montserrat', sans-serif;
    }
 
    .menu-icon {
