@@ -29,7 +29,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Montserrat&display=swap'
       }
     ]
   },
