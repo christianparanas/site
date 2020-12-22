@@ -69,12 +69,12 @@ export default {
    }
 
    h1 {
-      font-size: 18px;
+      font-size: 16px;
    }
 
    p {
       margin: 18px 0;
-      font-size: 15px;
+      font-size: 13px;
       padding-right: 8px;
    }
 
