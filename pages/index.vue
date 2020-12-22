@@ -97,8 +97,8 @@ export default {
 
   .hero { padding: 150px 20px 50px; }
 
-  h2 { font-size: 13px; }
-  h1 { font-size: 26px; }
+  h2 { font-size: 12px; }
+  h1 { font-size: 24px; }
 
   .options {
     display: grid;
