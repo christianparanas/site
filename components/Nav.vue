@@ -49,8 +49,8 @@ export default {
       position: fixed;
    }
 
-   .name {
-     font-family: 'Montserrat', sans-serif;
+   * {
+    font-family: 'Montserrat', sans-serif;
    }
 
    .menu-icon {
