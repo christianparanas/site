@@ -46,6 +46,10 @@ export default {
 </script>
 
 <style scoped>
+   * {
+    font-family: 'Montserrat', sans-serif;
+   }
+
    .link {
       display: flex;
       justify-content: space-between;
