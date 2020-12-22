@@ -85,21 +85,20 @@ export default {
 
 
 
-<style>
+<style scoped>
   * {
     font-family: 'Montserrat', sans-serif;
   }
 
   .main {
     height: 100%;
-    font-family: 'Montserrat', sans-serif;
     position: relative;
   }
 
   .hero { padding: 150px 20px 50px; }
 
-  h2 { font-size: 15px; }
-  h1 { font-size: 30px; }
+  h2 { font-size: 13px; }
+  h1 { font-size: 26px; }
 
   .options {
     display: grid;
@@ -162,7 +161,7 @@ export default {
 
   .candis {
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 13px;
   } 
   /* 624px */
   /* @media (min-width: 624px) {
