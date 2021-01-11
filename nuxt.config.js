@@ -18,7 +18,7 @@ export default {
       { property: "og:title", content: "Christian Paranas | Software Developer" },
       { property: "og:url", content: "https://christianparanas.me" },
       { property: "og:site_name", content: "Christian Paranas | Software Developer" },
-      { property: "og:image", content: "https://og-image.vercel.app/christianparanas.me.png" },
+      { property: "og:image", content: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" },
       { property: "og:type", content: "website" },
       {
         property: "og:description",
