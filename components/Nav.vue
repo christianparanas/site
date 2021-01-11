@@ -39,7 +39,13 @@ export default {
          toggleMode: false,
          toggleModeMenu: false
       }
-   }
+   },
+   mounted() {
+     this.$colorMode.preference = 'dark'
+   },
+   updated() {
+     this.$colorMode.preference = 'dark'
+   },  
 }
 </script>
 
