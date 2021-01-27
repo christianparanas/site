@@ -22,6 +22,10 @@ export default {
 </script>
 
 <style scoped>
+   * {
+    font-family: 'Montserrat', sans-serif;
+  }
+
    .blog-info {
       display: flex;
       justify-content: space-between;

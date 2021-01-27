@@ -1,7 +1,7 @@
 <template>
    <div id="project" class="project">
       <Nav />
-      <h1>Projects I made</h1>
+      <h1>Projects I built</h1>
       <div class="wrapper">
          <!-- passing the prop to procard compo -->
          <div class="card shadow" v-for="proj in projs" :key="proj.title">
@@ -104,6 +104,10 @@ export default {
 </script>
 
 <style scoped>
+   * {
+    font-family: 'Montserrat', sans-serif;
+   }
+
    .project {
       height: fit-content;
    }

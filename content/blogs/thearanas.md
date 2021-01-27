@@ -1,6 +1,6 @@
 ---
-title: Thea Myca Ranas
-description: Thea Myca Ranas, I'm hoping that she is the one who I'm grow old with.
+title: Thea Myca
+description: Thea Myca, baboy baboy.
 ---
 
 

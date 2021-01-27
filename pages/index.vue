@@ -73,7 +73,7 @@
         </div>
       </div>
     </div>
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>
 
@@ -86,16 +86,19 @@ export default {
 
 
 <style scoped>
+  * {
+    font-family: 'Montserrat', sans-serif;
+  }
+
   .main {
     height: 100%;
-    font-family: 'Fredoka One', cursive;
     position: relative;
   }
 
   .hero { padding: 150px 20px 50px; }
 
-  h2 { font-size: 15px; }
-  h1 { font-size: 30px; }
+  h2 { font-size: 12px; }
+  h1 { font-size: 24px; }
 
   .options {
     display: grid;
@@ -138,7 +141,7 @@ export default {
   .can {
     display: grid;
     grid-row-gap: 10px;
-    margin-top: 40px;
+    margin-top: 60px;
   }
 
   .dev {
@@ -158,7 +161,7 @@ export default {
 
   .candis {
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 13px;
   } 
   /* 624px */
   /* @media (min-width: 624px) {
