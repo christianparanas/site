@@ -32,9 +32,6 @@
 </template>
 
 <style scoped>
-        * {
-          font-family: 'Montserrat', sans-serif;
-        }
 
 	.title {
 		display: grid;
