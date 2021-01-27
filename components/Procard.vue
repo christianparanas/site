@@ -53,6 +53,7 @@ export default {
    .link {
       display: flex;
       justify-content: space-between;
+      position: relative;
    }
 
    .tools-icon {
@@ -85,6 +86,8 @@ export default {
    .tools {
       display: flex;
       gap: 5px;
+      position: absolute;
+      bottom: 15px;
    }
 
    .tool {

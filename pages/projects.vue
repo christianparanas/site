@@ -127,5 +127,34 @@ export default {
       background-color: var(--menubg);
       padding: 15px;
       border-radius: 8px;
+      position: relative;
+      padding-bottom: 40px;
+   }
+
+   @media (min-width: 991.98px) {
+      .project {
+         height: fit-content;
+      }
+
+      h1 {
+         padding-top: 100px;
+         text-align: center;
+      }
+
+      .wrapper {
+         padding: 20px 20px 30px;
+         display: grid;
+         grid-row-gap: 12px;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-gap: 15px;
+      }
+
+      .card {
+         background-color: var(--menubg);
+         padding: 15px;
+         border-radius: 8px;
+         padding-bottom: 40px;
+         z-index: -1;
+      }
    }
 </style>

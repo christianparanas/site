@@ -1,8 +1,15 @@
 <template>
-  <div>
+  <div class="layout">
     <Nuxt />
   </div>
 </template>
+
+<style scoped>
+  .layout {
+    max-width: 1199.98px;
+    margin: 0 auto;
+  }
+</style>
 
 <script>
 export default {

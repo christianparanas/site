@@ -53,7 +53,8 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxtjs/svg',
     '@nuxtjs/google-analytics',
-    '@nuxtjs/date-fns'
+    '@nuxtjs/date-fns',
+    '@nuxtjs/moment'
   ],
 
   googleAnalytics: {
