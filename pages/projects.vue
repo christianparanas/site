@@ -34,6 +34,22 @@ export default {
       return {
          projs: [
                   {
+                     title: "Random",
+                     discrip: "Random things in a web app",
+                     tools: ['vue', 'nuxt', 'firebase', 'pwa'],
+                     git: 'https://github.com/christianparanas/things',
+                     site: 'https://things.vercel.app',
+                     isLive: true
+                  },
+                  {
+                     title: "TMDB App",
+                     discrip: "Movie Information Web Application.",
+                     tools: ['vue', 'nuxt', 'axios', 'tmdb-api', 'pwa'],
+                     git: 'https://github.com/christianparanas/mobeapp',
+                     site: 'https://mobeapp.vercel.app',
+                     isLive: true
+                  },
+                  {
                      title: "Chatroom",
                      discrip: "Simple chatroom made with next and firebase",
                      tools: ['react', 'next', 'axios', 'firebase'],
