@@ -41,15 +41,16 @@
 
 	.c3 {
 		padding: 20px;
+		word-wrap: break-all;
 	}
 
 	.back {
+	 border: 2px solid #6B21A8;
    	 cursor: pointer; 
    	 color: white; 
-   	 background: violet; 
    	 padding: 2px 8px; 
    	 border-radius: 3px; 
-   	 font-size: 10px;
+   	 font-size: 15px;
    	 margin-top: 20px;
    }
 </style>
