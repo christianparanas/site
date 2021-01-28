@@ -129,6 +129,7 @@ export default {
       border-radius: 8px;
       position: relative;
       padding-bottom: 40px;
+      z-index: -1;
    }
 
    @media (min-width: 991.98px) {
