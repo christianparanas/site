@@ -121,14 +121,15 @@ export default {
       padding: 20px 20px 30px;
       display: grid;
       grid-row-gap: 12px;
+      position: relative;
    }
 
    .card {
+      z-index: 1;
       background-color: var(--menubg);
       padding: 15px;
       border-radius: 8px;
       position: relative;
-      z-index: 1; 
       padding-bottom: 40px;
    }
 

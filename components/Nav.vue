@@ -59,13 +59,14 @@ export default {
       opacity: .9;
       width: 100%;
       height: calc(100vh + 10px);
-      position: absolute;
+      position: fixed;
+      z-index: 100;
       top: -5px;
       left: 0;
       background-color: var(--menubg);
       letter-spacing: 2px;
       padding: 75px 20px;
-      z-index: 100;
+      
    }
 
    .options {

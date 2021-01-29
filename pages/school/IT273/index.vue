@@ -6,22 +6,11 @@
 			<p class="hello">Hello sir. Ronnie G. Cabillan, I am Christian R. Paranas from BSIT 2-E. These are the links I created to navigate to my activities. Thank you!</p>
 		</div>
 		<div class="links">
-			<NuxtLink to="/school/it273/chapter2">
-				<button class="shadow">Chapter 2
-				<svg class="w-5 h-5" style="display: inline-block; margin: 0 0 2px 4px" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+			<NuxtLink :to="exer.link" v-for="exer in exercises" :key="exer.name">
+				<button class="shadow">Chapter {{ exer.name }}
+				<svg class="w-4 h-4" style="display: inline-block; margin: 0 0 2px 4px" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
 			</button>
 			</NuxtLink>
-			<NuxtLink to="/school/it273/chapter3">
-				<button class="shadow">Chapter 3
-				<svg class="w-5 h-5" style="display: inline-block; margin: 0 0 2px 4px" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-			</button>
-			</NuxtLink>
-			<NuxtLink to="/school/it273/chapter4">
-				<button class="shadow">Chapter 4
-				<svg class="w-5 h-5" style="display: inline-block; margin: 0 0 2px 4px" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-			</button>
-			</NuxtLink>
-			
 		</div>
 	</div>
 </template>
@@ -62,9 +51,9 @@
 
 	button {
 		place-self: center;
-		border-radius: 6px;
+		border-radius: 5px;
 		width: fit-content;
-		padding: 10px 30px;
+		padding: 8px 15px;
 		background-color: var(--hero1bg);
     	color: var(--hero1color);
 	}
@@ -75,3 +64,22 @@
 
 	
 </style>
+
+<script>
+	export default {
+		data() {
+			return {
+				exercises: [
+					{ name: '2', link: '/school/it273/chapter2' },
+					{ name: '3', link: '/school/it273/chapter3' },
+					{ name: '4', link: '/school/it273/chapter4' },
+					{ name: '5', link: '/school/it273/chapter5' },
+					{ name: '6', link: '/school/it273/chapter6' },
+					{ name: '7', link: '/school/it273/chapter7' },
+					{ name: '8', link: '/school/it273/chapter8' },
+				]
+			}
+			
+		}
+	}
+</script>

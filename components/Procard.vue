@@ -54,6 +54,7 @@ export default {
       display: flex;
       justify-content: space-between;
       position: relative;
+      z-index: 3;
    }
 
    .tools-icon {

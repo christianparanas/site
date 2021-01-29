@@ -4,7 +4,8 @@
 
 		<div class="lists">
 			<div class="unlist">
-				<h2>Names - Unordered List</h2>
+				<h2>Names  <span>Unordered List</span></h2>
+				<br>
 				<ul class="list-disc">
 					<li>Thea</li>
 					<li>Kalel</li>
@@ -12,8 +13,10 @@
 					<li>Christian</li>
 				</ul>
 			</div>
+			<br>
 			<div class="unlist">
-				<h2>Steps on how to learn to code - Ordered List</h2>
+				<h2>Steps on how to learn to code  <span>Ordered List</span></h2>
+				<br>
 				<ol class="list-decimal">
 					<li>Open your computer</li>
 					<li>Surf the internet and choose what you wannt to learn.</li>
@@ -22,9 +25,10 @@
 					<li>Repeat</li>
 				</ol>
 			</div>
-			<fieldset class="unlist">
-				<legend>Description List</legend>
-				<h2>Languages and Frameworks</h2>
+			<br>
+			<div class="unlist">
+				<h2>Languages and Frameworks  <span>Discription List</span></h2>
+				<br>
 				<dl>
 					<dt>Javascript</dt>
   					<dd>Nodejs</dd>
@@ -38,7 +42,7 @@
   					<dt>Javascript</dt>
   					<dd>Nodejs</dd>
 				</dl>
-			</fieldset>
+			</div>
 		</div>
 
 
@@ -51,14 +55,41 @@
 <style scoped>
 	.c5 {
 	  padding: 40px 20px;
+	  font-size: 12px;
    }
 
    .lists {
-   	 padding: 20px;
+   	 margin: 20px 0;
+   }
+
+   .unlist {
+   	width: fit-content;
+   	background-color: var(--menubg);
+   	padding: 20px;
+   	border-radius: 8px;
+   }
+
+   ul, ol {
+   	padding-left: 20px;
+   }
+
+   dt {
+   	position: relative;
+   }
+
+   dd {
+   	margin-left: 15px;
+   }
+
+   span {
+   	margin-left: 4px;
+   	font-size: 14px;
+   	padding: 4px 10px;
+   	border-radius: 4px;
+   	background-color: var(--hero1bg);
    }
 
    .back {
-	 
    	 cursor: pointer; 
    	 background-color: var(--hero1bg);
      color: var(--hero1color);

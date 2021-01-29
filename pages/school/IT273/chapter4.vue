@@ -45,6 +45,8 @@
 		padding: 40px 20px;
 	}
 
+	
+
 	.back {
    	 cursor: pointer; 
    	 background-color: var(--hero1bg);

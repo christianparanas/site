@@ -143,7 +143,7 @@ export default {
   .can {
     display: grid;
     grid-row-gap: 10px;
-    padding: 0 20px;
+    padding: 0 20px 50px;
   }
 
   .dev {
