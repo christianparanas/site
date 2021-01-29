@@ -128,8 +128,8 @@ export default {
       padding: 15px;
       border-radius: 8px;
       position: relative;
+      z-index: 1; 
       padding-bottom: 40px;
-      z-index: -1;
    }
 
    @media (min-width: 991.98px) {
@@ -155,7 +155,11 @@ export default {
          padding: 15px;
          border-radius: 8px;
          padding-bottom: 40px;
-         z-index: -1;
+         z-index: 1;
+      }
+
+      .card:hover {
+         top: -5px;
       }
    }
 </style>

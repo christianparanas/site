@@ -17,7 +17,7 @@
  	<br>
  	
 	<pre>Download Files:     <a href="/algebraic.txt" download>Algebraic Expression</a>
-		    <a href="/chemical.txt" download>Chemical Compound</a></pre>
+		                   <a href="/chemical.txt" download>Chemical Compound</a></pre>
 	<p>Source: <a href="https://google.com">Google.com</a> and <a href="https://yahoo.com">Yahoo.com</a></p>
 	<pre>Go back to:
 	<a href="#algebraic">Lesson 1: Algebraic Equation</a>
@@ -42,15 +42,15 @@
 	}
 
 	.c4 {
-		padding: 20px;
+		padding: 40px 20px;
 	}
 
 	.back {
-	 border: 2px solid #6B21A8;
    	 cursor: pointer; 
-   	 color: white; 
-   	 padding: 2px 8px; 
-   	 border-radius: 3px; 
+   	 background-color: var(--hero1bg);
+     color: var(--hero1color);
+   	 padding: 4px 8px; 
+   	 border-radius: 5px; 
    	 font-size: 15px;
    	 margin-top: 20px;
    }

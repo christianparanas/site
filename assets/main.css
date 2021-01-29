@@ -41,12 +41,7 @@
    font-family: Roboto, 'Open Sans', sans-serif;
    background-color: var(--bg);
    color: var(--color);
-   transition: background-color 0.3s;
  }
  a {
    color: var(--color);
- }
-
- * {
-  font-family: 'Fredoka One', cursive;
  }

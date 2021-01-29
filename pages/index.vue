@@ -143,7 +143,6 @@ export default {
   .can {
     display: grid;
     grid-row-gap: 10px;
-    margin-top: 60px;
     padding: 0 20px;
   }
 

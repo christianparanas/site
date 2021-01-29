@@ -1,5 +1,5 @@
 <template>
-	<div style="padding: 20px;">
+	<div class="c2">
 		<div class="title">Chapter 2</div>
 
 		<h3>WELCOME TO HTML</h3>
@@ -17,6 +17,10 @@
     font-family: 'Montserrat', sans-serif;
    }
 
+   .c2 {
+   	padding: 40px 20px;
+   }
+
    .title {
 		display: grid;
 		place-items: center;
@@ -24,11 +28,12 @@
 	}
 
    .back {
-	 border: 2px solid #6B21A8;
+	 
    	 cursor: pointer; 
-   	 color: white; 
-   	 padding: 2px 8px; 
-   	 border-radius: 3px; 
+   	 background-color: var(--hero1bg);
+     color: var(--hero1color);
+   	 padding: 4px 8px; 
+   	 border-radius: 5px;
    	 font-size: 15px;
    	 margin-top: 20px;
    }

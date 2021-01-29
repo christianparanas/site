@@ -36,7 +36,7 @@ export default {
          toggleMode: false,
          toggleModeMenu: false
       }
-   }
+   },
 }
 </script>
 
@@ -52,7 +52,7 @@ export default {
    }
 
    .menu-icon {
-      z-index: 21;
+      z-index: 101;
    }
 
    .menu-overlay {
@@ -65,7 +65,7 @@ export default {
       background-color: var(--menubg);
       letter-spacing: 2px;
       padding: 75px 20px;
-      z-index: 20;
+      z-index: 100;
    }
 
    .options {

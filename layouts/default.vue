@@ -4,7 +4,11 @@
   </div>
 </template>
 
-<style scoped>
+<style>
+  * {
+    font-family: 'Montserrat', sans-serif;
+   }
+
   .layout {
     max-width: 1199.98px;
     margin: 0 auto;
