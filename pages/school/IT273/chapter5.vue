@@ -58,6 +58,12 @@
 	  font-size: 12px;
    }
 
+   .title {
+   	display: grid;
+   	place-items: center;
+   	font-size: 18px;
+   }
+
    .lists {
    	 margin: 20px 0;
    }
@@ -83,7 +89,7 @@
 
    span {
    	margin-left: 4px;
-   	font-size: 14px;
+   	font-size: 10px;
    	padding: 4px 10px;
    	border-radius: 4px;
    	background-color: var(--hero1bg);
