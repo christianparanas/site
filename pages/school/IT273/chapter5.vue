@@ -47,7 +47,7 @@
 
 
 		<NuxtLink to="/school/it273">
-			<button class="back">Go back!</button>
+			<button class="back">Go back</button>
 		</NuxtLink>
 	</div>
 </template>
@@ -55,7 +55,7 @@
 <style scoped>
 	.c5 {
 	  padding: 40px 20px;
-	  font-size: 12px;
+	  font-size: 13px;
    }
 
    .title {
@@ -104,7 +104,7 @@
      color: var(--hero1color);
    	 padding: 4px 8px; 
    	 border-radius: 5px;
-   	 font-size: 15px;
+   	 font-size: 13px;
    	 margin-top: 20px;
    }
 </style>

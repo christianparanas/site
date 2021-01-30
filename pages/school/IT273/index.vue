@@ -7,9 +7,9 @@
 		</div>
 		<div class="links">
 			<NuxtLink :to="exer.link" v-for="exer in exercises" :key="exer.name">
-				<button class="shadow-md">Chapter {{ exer.name }}
-				<svg class="w-4 h-4" style="display: inline-block; margin: 0 0 2px 4px" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-			</button>
+			<div class="nsvto shadow-md">Chapter {{ exer.name }}
+				<svg class="w-4 h-4" style="display: inline-block; margin: 0 0 2px 4px" fill="none" stroke="#BCCDDF" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+			</div>
 			</NuxtLink>
 		</div>
 	</div>
@@ -42,24 +42,27 @@
 	.links {
 		padding: 20px;
 		display: grid;
-		grid-gap: 8px;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 15px;
 	}
 
 	a {
 		place-self: center;
 	}
 
-	button {
+	.nsvto {
 		place-self: center;
-		border-radius: 6px;
-		width: fit-content;
+		border-radius: 5px;
 		padding: 8px 15px;
-		background-color: var(--hero1bg);
-    	color: var(--hero1color);
-	}
+		width: 100%;
+		background-color: var(--menubg);
+		box-shadow: 0 10px 40px -10px rgb(0 64 128 / 20%);
+    	transition: box-shadow .3s;
+    }
 
-	button:hover {
-		background: #161E2E;
+	.nsvto:hover {
+		color: #fff;
+		background: purple;
 	}
 
 	

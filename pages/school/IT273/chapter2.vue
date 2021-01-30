@@ -19,12 +19,14 @@
 
    .c2 {
    	padding: 40px 20px;
+   	font-size: 13px;
    }
 
    .title {
 		display: grid;
 		place-items: center;
 		margin-bottom: 20px;
+		font-size: 18px
 	}
 
    .back {
@@ -34,7 +36,7 @@
      color: var(--hero1color);
    	 padding: 4px 8px; 
    	 border-radius: 5px;
-   	 font-size: 15px;
+   	 font-size: 13px;
    	 margin-top: 20px;
    }
 </style>

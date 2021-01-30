@@ -25,7 +25,7 @@
 	</pre>
 
 	<NuxtLink to="/school/it273">
-		<button class="back">Go back!</button>
+		<button class="back">Go back</button>
 	</NuxtLink>
 	</div>
 </template>
@@ -39,10 +39,12 @@
 		display: grid;
 		place-items: center;
 		margin-bottom: 20px;
+		font-size: 18px;
 	}
 
 	.c4 {
 		padding: 40px 20px;
+		font-size: 13px;
 	}
 
 	
@@ -53,7 +55,7 @@
      color: var(--hero1color);
    	 padding: 4px 8px; 
    	 border-radius: 5px; 
-   	 font-size: 15px;
+   	 font-size: 13px;
    	 margin-top: 20px;
    }
 
