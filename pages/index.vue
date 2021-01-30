@@ -147,8 +147,9 @@ export default {
   }
 
   .dev {
-    border: 5px solid var(--bordercan);
-    background-color: var(--canbg);
+    border: 3px solid var(--bordercan);
+    background-color: var(--devcan);
+    box-shadow: 0 10px 40px -10px rgb(0 64 128 / 20%);
     display: grid;
     grid-template-columns: 60px 1fr;
     padding: 20px;

@@ -13,8 +13,9 @@
    --hoverMenuOverlayBg:  #6B21A8;
    --tooltext: #f4f0f8;
    --bgtools: #8B5CF6;
-   --bordercan: #F7F7F7;
+   --bordercan: #fff;
    --canbg: #fff;
+   --devcan: #fff;
    
  }
  
@@ -35,6 +36,7 @@
    --bgtools: #6B21A8;
    --bordercan: #1f2937;
    --canbg: #091a28;
+   --devcan: transparent;
  }
  
  body {
