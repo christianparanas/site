@@ -1,18 +1,16 @@
 <template>
 	<div class="container">
-		<div class="title">Login</div>
+		<div class="title">Sign Up</div>
 		<form action="#" autocomplete="off">
-			<input type="text" placeholder="Username or Email" required>
-			<input type="email" placeholder="Password" required>
-			<input class="loginBtn" type="submit" value="Login">
-			<div class="options">
-				<div class="">Forgot Password?</div>
-				<div class="option"><NuxtLink to="/school/it273/chapter8/signup" class="option">New here? Sign Up</NuxtLink></div>
-			</div>
+			<input type="text" placeholder="Username" required>
+			<input type="text" placeholder="Given Name" required>
+			<input type="text" placeholder="Surname" required>
+			<input type="email" placeholder="Email" required>
+			<input type="password" placeholder="Password" required>
+			<input type="password" placeholder="Re-enter password" required>
+			<input class="loginBtn" type="submit" value="Sign Up">
+			<div class="option"><NuxtLink to="/school/it273/chapter8" class="option">Already registered? Sign In!</NuxtLink></div>
 		</form>
-		<NuxtLink to="/school/it273">
-			<button class="back"><svg class="w-6 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg></button>
-		</NuxtLink>
 	</div>
 </template>
 
@@ -21,10 +19,10 @@
 		padding: 40px 20px;
 	}
 
-	.options {
+	.option {
 		font-size: 12px;
-		display: flex;
-		justify-content: space-between;
+		display: grid;
+		place-items: center;
 	}
 
 	.title {
