@@ -71,6 +71,7 @@
 		top: -47px;
 		right: 15px;
 		cursor: pointer;
+		-webkit-tap-highlight-color: transparent;
 	}
 
 	.title {
