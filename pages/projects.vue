@@ -131,6 +131,9 @@ export default {
       border-radius: 8px;
       position: relative;
       padding-bottom: 40px;
+      box-shadow: 0 10px 40px -10px rgb(0 64 128 / 20%);
+      transition: box-shadow .3s;
+   
    }
 
    @media (min-width: 991.98px) {

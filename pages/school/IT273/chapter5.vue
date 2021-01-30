@@ -3,7 +3,7 @@
 		<div class="title">Chapter 5</div>
 
 		<div class="lists">
-			<div class="unlist shadow">
+			<div class="unlist">
 				<h2>Names  <span>Unordered List</span></h2>
 				<br>
 				<ul class="list-disc">
@@ -14,7 +14,7 @@
 				</ul>
 			</div>
 			<br>
-			<div class="unlist shadow">
+			<div class="unlist">
 				<h2>Steps on how to learn to code  <span>Ordered List</span></h2>
 				<br>
 				<ol class="list-decimal">
@@ -26,7 +26,7 @@
 				</ol>
 			</div>
 			<br>
-			<div class="unlist shadow">
+			<div class="unlist">
 				<h2>Languages and Frameworks  <span>Discription List</span></h2>
 				<br>
 				<dl>
@@ -73,6 +73,8 @@
    	background-color: var(--menubg);
    	padding: 20px;
    	border-radius: 8px;
+    box-shadow: 0 10px 40px -10px rgb(0 64 128 / 20%);
+    transition: box-shadow .3s;
    }
 
    ul, ol {
