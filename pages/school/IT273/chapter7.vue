@@ -59,6 +59,19 @@
 		
 	}
 
+	.back {
+	 outline: none;
+	 position: absolute;
+	 top: 0;
+   	 cursor: pointer; 
+   	 background-color: var(--hero1bg);
+     color: var(--hero1color);
+   	 padding: 4px 8px; 
+   	 border-radius: 50%;
+   	 font-size: 13px;
+   	 margin-top: 20px;
+   }
+
 	.head {
 		margin-top: 50px;
 		display: flex;
@@ -67,8 +80,7 @@
 	}
 
 	.title {
-		font-family: 'Fredoka One', cursive;
-		font-size: 20px;
+		font-size: 25px;
 	}
 
 	.contents {
