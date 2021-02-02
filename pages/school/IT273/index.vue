@@ -44,6 +44,8 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 15px;
+		width: fit-content;
+		margin: 0 auto;
 	}
 
 	a {
@@ -53,6 +55,7 @@
 	.nsvto {
 		place-self: center;
 		border-radius: 5px;
+		
 		padding: 8px 15px;
 		width: 100%;
 		background-color: var(--menubg);
