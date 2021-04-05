@@ -3,7 +3,7 @@
 		<Nav />
 		<div class="head">
 			<h1 class="title">IT273 -  Web System and Technologies</h1>
-			<p class="hello">Hello sir. Ronnie G. Cabillan, I am Christian R. Paranas from BSIT 2-E. These are the links I created to navigate to my activities. Thank you!</p>
+			<p class="hello">Hello sir. Ronnie G. Cabillan, I am Christian R. Paranas from BSIT 2-E. These are the links I created for you to navigate to my activities. Thank you!</p>
 		</div>
 		<div class="links">
 			<NuxtLink :to="exer.link" v-for="exer in exercises" :key="exer.name">
